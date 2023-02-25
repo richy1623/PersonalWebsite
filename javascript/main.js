@@ -2,7 +2,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
-document.getElementById("name").onmouseover = event => {
+function letterEffect(event){
     var i = 0;
 
     clearInterval(interval);
@@ -18,3 +18,6 @@ document.getElementById("name").onmouseover = event => {
         i+=1/2;
     }, 55);
 }
+
+document.getElementById("name").onmouseover = event => letterEffect(event);
+document.getElementsByClassName("body").ontouchstart = event => letterEffect(event);
