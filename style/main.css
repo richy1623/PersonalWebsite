@@ -4,7 +4,7 @@ body {
 
 h1 {
     color: white;
-    font-family: "Space Mono", monospace;
+    font-family: "Space Mono", monospace, ui-monospace;
     text-transform: uppercase;
     margin: 0;
 }
@@ -16,7 +16,7 @@ section {
 
 div {
 text-align: justify;
-font-size: 10vw;
+font-size: 9vw;
 }
 
 div:after {
