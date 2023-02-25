@@ -5,6 +5,22 @@ body {
 h1 {
     color: white;
     font-family: "Space Mono", monospace;
-    font-size: 10em;
     text-transform: uppercase;
+    margin: 0;
+}
+
+section {
+    position: absolute; top:0; bottom:0; left:0; right:0;
+    overflow: hidden;
+}
+
+div {
+text-align: justify;
+font-size: 10vw;
+}
+
+div:after {
+content: "";
+display: inline-block;
+width: 100%;
 }
